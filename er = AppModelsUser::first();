@@ -1,0 +1,21 @@
+[90m= [39m[
+    "[34mid[39m" => [35m1[39m,
+    "[34mnombre[39m" => "[32mAlexandra[39m",
+    "[34mapellidos[39m" => "[32mDietrich McGlynn[39m",
+    "[34memail[39m" => "[32mgottlieb.benedict@example.org[39m",
+    "[34memail_verified_at[39m" => "[32m2026-02-23 12:05:23[39m",
+    "[34mpassword[39m" => "[32m$2y$12$q67bxdRo1CJiWs8ogHEbuesjj9GaKhX4uW7tiehHD/2caK0mVmcqW[39m",
+    "[34mtelefono[39m" => "[32m458691320[39m",
+    "[34mdireccion[39m" => """
+      [32m7235 Nikko Plaza Suite 164[39m\n
+      [32mSabrynafurt, NV 22818[39m
+      """,
+    "[34mlocalidad[39m" => "[32mCandelarioview[39m",
+    "[34mrole[39m" => "[32mprotectora[39m",
+    "[34mprotectora_id[39m" => [35m1[39m,
+    "[34mes_responsable[39m" => [35m1[39m,
+    "[34mremember_token[39m" => "[32mLfbruzjQodRXwOlruAzdnQJJ6Ls1ulH7RUdoZqb4sUVkTcxCAuGyUrp3gx4B[39m",
+    "[34mcreated_at[39m" => "[32m2026-02-23 12:05:23[39m",
+    "[34mupdated_at[39m" => "[32m2026-02-23 12:05:24[39m",
+  ]
+
