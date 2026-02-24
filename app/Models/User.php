@@ -59,7 +59,6 @@ class User extends Authenticatable
         ];
     }
 
-    // ========== RELACIONES ==========
 
    
     public function protectora()
@@ -80,8 +79,7 @@ class User extends Authenticatable
         return $this->hasOne(Protectora::class, 'usuario_principal_id');
     }
 
-    // ========== SCOPES ==========
-
+//metodos auxiliares por si los uso 
    
     public function scopeAdoptantes($query)
     {
@@ -106,7 +104,6 @@ class User extends Authenticatable
         return $query->where('es_responsable', true);
     }
 
-    // ========== ACCESSORS ==========
 
  
     public function getNombreCompletoAttribute()
@@ -126,9 +123,7 @@ class User extends Authenticatable
         return $this->role === 'protectora';
     }
 
-    /**
-     * Verificar si es admin
-     */
+   
     public function getEsAdminAttribute()
     {
         return $this->role === 'admin';
@@ -170,7 +165,6 @@ class User extends Authenticatable
         }
     }
 
-    // ========== MÉTODOS DE NEGOCIO ==========
 
    
     public function asignarAProtectora($protectoraId, $esResponsable = false)

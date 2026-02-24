@@ -18,7 +18,6 @@ class FavoritoController extends Controller
     ]);
 }
 
-    // POST /animales/{animal}/favoritos - añadir a favoritos
     public function store(Request $request,Animal $animal)
     {
         $existe = $request->user()->favoritos()
@@ -34,7 +33,6 @@ class FavoritoController extends Controller
         return response()->json(['message' => $animal->nombre . ' Añadido a favoritos'], 201);
     }
 
-    // DELETE /animales/{animal}/favoritos - eliminar de favoritos
     public function destroy(Request $request, Animal $animal)
 {
     $eliminado = $request->user()->favoritos()
